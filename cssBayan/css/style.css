@@ -5,6 +5,8 @@
     text-align: start;
     background: #e1dede;
     width: 100%;
+    scroll-behavior: smooth;
+    transition: linear;
 }
 
 .bayanwrapper .bayanimg {
@@ -14,7 +16,7 @@
     background: #e1dede;
 	line-height: 4vh;
 	box-sizing: border-box;
-	transition: color 0.5s, padding 0.5s;
+	transition: 4s color 4s, padding 4s;
 	overflow: hidden;
 	font-family: Verdana, sans-serif;
 	font-size: 4vh;
@@ -25,7 +27,7 @@
     background: #e1dede;
 	display: block;
     justify-content: center;
-	padding: 15px 20px;
+	padding: 4vh 5vh;
 	width: 100%;
 	color: #592be3;
 	font-weight: 300;
@@ -33,46 +35,51 @@
 	z-index: 100;
 	font-family: Verdana, sans-serif;
 	font-size: 4vh;
-	transition: color .35s;
+	transition: 4s color 4s, padding 4s;
     border-bottom: 0.5vh solid black;
 }
 
 .bayanwrapper label:hover {
     color: #070607;
+    transition: 4s color 4s, padding 4s;
 }
 
 .bayanwrapper input{
 	display: none;
+    transition: 4s color 4s, padding 4s;
 }
 
 .bayanwrapper label:before {
 	content: '\002B';
 	float: right;
+    transition: 4s color 4s, padding 4s;
 }
+
 .bayanwrapper input:checked + label {
     background: #e1dede;
     color: #080809;
+    transition: 4s color 4s, padding 4s;
 }
 
 .bayanwrapper input:checked + label:before {
     content: '\00D7';
-    transition: transform .35s;
-    transform: rotate(90deg);
+    transition: 4s color 4s, padding 4s;
 }
 
 .bayanwrapper input:checked + label + .bayanimg {
 	height: auto;
 	margin-top: 0.5%;
 	color: #000;
-	padding: 20px 30px 10px;
+	padding: 4vh 5vh 3vh;
+    transition: 4s color 4s, padding 4s;
 }
 
 .bayanwrapper input:hover + label + .bayanimg {
 	height: auto;
 	margin-top: 0.5%;
 	color: #000;
-	padding: 20px 30px 10px;
-    transition: transform 1.95s color 1.5s, padding 1.5s;;
+	padding: 4vh 5vh 3vh;
+    transition: 4s color 4s, padding 4s;
 }
 
 .bayan_task_burger {
