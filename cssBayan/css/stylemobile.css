@@ -1,0 +1,11 @@
+@media (max-width: 560px) {
+    .bayan_text {
+        font-size: 3vh;
+        font-weight: 500;
+    }
+
+    .bayanwrapper label {
+        font-size: 2vh;
+        font-weight: 200;
+    }
+  }
