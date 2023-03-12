@@ -67,10 +67,24 @@
 	padding: 20px 30px 10px;
 }
 
-.bayan_text {
+.bayanwrapper input:hover + label + .bayanimg {
+	height: auto;
+	margin-top: 0.5%;
+	color: #000;
+	padding: 20px 30px 10px;
+    transition: transform 1.95s color 1.5s, padding 1.5s;;
+}
+
+.bayan_task_burger {
     display: flex;
     align-items: flex-start;
-    font-size: 4vh;
+    width: 70%;
+    margin: 0 -4% 0 0;
+}
+
+.bayan_text {
+    font-size: 6vh;
+    font-weight: 900;
 }
 
 .bayan_wrapper_menu {
